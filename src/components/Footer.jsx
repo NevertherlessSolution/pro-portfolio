@@ -87,7 +87,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo>Li XiaoNan</Logo>
+        <Logo>XiaoNan Li</Logo>
         <Nav>
           <NavLink href="#Hero">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
@@ -103,7 +103,7 @@ function Footer() {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons> */}
-        <Copyright>&copy; 2025 Li XiaoNan. All rights reserved.</Copyright>
+        <Copyright>&copy; 2025 XiaoNan Li. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
