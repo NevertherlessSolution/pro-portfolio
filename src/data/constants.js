@@ -1,11 +1,11 @@
 export const Bio = {
-  name: "Li XiaoNan",
+  name: "XiaoNan Li",
   roles: [
     "Senior Mobile Developer",
   ],
   description:
-    "Tech-savvy and analytical professional with substantial experience in developing Native Android (Java/Kotlin), iOS(Swift), and Flutter Hybrid mobile applications. Proven success in managing the full software development lifecycle—from requirements gathering and system design to project planning, implementation, debugging, and deployment. Demonstrated expertise in building user-friendly, high-performance mobile apps using Android (Jetpack Compose, XML), iOS (SwiftUI, Storyboards), and Flutter (Dart, BLoC). Skilled in integrating native and hybrid libraries, writing end-to-end tests, and maintaining scalable, maintainable codebases across platforms.",
-  github: "https://github.com/chetanck03",
+    "Tech-savvy and analytical professional with strong experience developing native Android (Java/Kotlin), iOS (Swift), and cross-platform Flutter (Dart) mobile applications. Proven track record in handling the full software development lifecycle—from gathering requirements and designing systems to planning, building, debugging, and deploying apps. Skilled at creating high-performance, user-friendly mobile experiences using Android (Jetpack Compose, XML), iOS (SwiftUI, Storyboards), and Flutter (BLoC architecture). Experienced in integrating native and hybrid libraries, writing end-to-end tests, and maintaining clean, scalable codebases across platforms.",
+  github: "https://github.com/mob-rockstar",
   resume: "https://ck-tech-hub.vercel.app/",
   linkedin: "https://www.linkedin.com/in/chetan-kumar-022717277/",
   twitter: "https://twitter.com/chetanck03",
@@ -17,55 +17,6 @@ export const skills = [
   {
     title: "Frontend",
     skills: [
-      {
-        name: "Jetpack Compose",
-        image: "./images/jetpack.png",
-      },
-
-      {
-        name: "Storyboard",
-        image: "./images/storytelling.png",
-      },
-
-      {
-        name: "XML",
-        image: "./images/xml.png",
-      },
-
-      {
-        name: "Git",
-        image: "./images/social.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-
-      // {
-      //   name: "Swift",
-      //   image: "./images/swift.png",
-      // },
-
-      // {
-      //   name: "Swift",
-      //   image: "./images/swift.png",
-      // },
-
-      // {
-      //   name: "Swift",
-      //   image: "./images/swift.png",
-      // },
-
-      // {
-      //   name: "Swift",
-      //   image: "./images/swift.png",
-      // },
-
-      {
-        name: "Swift",
-        image: "./images/swift.png",
-      },
 
       {
         name: "Java",
@@ -76,11 +27,141 @@ export const skills = [
         image: "./images/kotlin.jpeg",
       },
       {
+        name: "Swift",
+        image: "./images/swift.png",
+      },
+      {
+        name: "Dart",
+        image: "./images/dart.png",
+      },
+      {
         name: "Flutter",
         image: "./images/flutter.png",
       },
       {
-        name: "React Native",
+        name: "BLoC",
+        image: "./images/bloc.png",
+      },
+      {
+        name: "Jetpack Compose",
+        image: "./images/jetpack.png",
+      },
+
+      
+      {
+        name: "SwiftUI",
+        image: "./images/swiftUI.jpeg",
+      },
+      {
+        name: "Storyboard",
+        image: "./images/storyboard.png",
+      },
+      {
+        name: "XML",
+        image: "./images/xml.png",
+      },
+      {
+        name: "Coroutine",
+        image: "./images/Coroutine.png",
+      },
+
+
+      {
+        name: "Combine",
+        image: "./images/Combine.png",
+      },
+      {
+        name: "RxJava",
+        image: "./images/RxJava.jpeg",
+      },
+      {
+        name: "RxAndroid",
+        image: "./images/RxAndroid.png",
+      },
+      {
+        name: "Room",
+        image: "./images/Room.jpeg",
+      },
+      {
+        name: "CoreData",
+        image: "./images/CoreData.jpeg",
+      },
+
+
+      {
+        name: "Retrofit",
+        image: "./images/Retrofit.png",
+      },
+      {
+        name: "Alamofire",
+        image: "./images/Alamofire.png",
+      },
+      {
+        name: "Jetpack Navigation",
+        image: "./images/Jetpack Navigation.png",
+      },
+      {
+        name: "JUnit",
+        image: "./images/JUnit.png",
+      },
+
+
+      {
+        name: "Espresso",
+        image: "./images/Espresso.png",
+      },
+      {
+        name: "Mockito",
+        image: "./images/Mockito.jpeg",
+      },
+      {
+        name: "XCTest",
+        image: "./images/XCTest.jpeg",
+      },
+      {
+        name: "XCUITest",
+        image: "./images/XCUITest.png",
+      },
+      {
+        name: "Git",
+        image: "./images/Git.png",
+      },
+      {
+        name: "SourceTree",
+        image: "./images/SourceTree.jpeg",
+      },
+
+
+      {
+        name: "Android Studio",
+        image: "./images/Android Studio.jpeg",
+      },
+      {
+        name: "Xcode",
+        image: "./images/Xcode.jpeg",
+      },
+      {
+        name: "Visual Studio Code",
+        image: "./images/Visual Studio Code.png",
+      },
+      {
+        name: "Microsoft Teams Toolkit",
+        image: "./images/Microsoft Teams Toolkit.jpeg",
+      },
+      {
+        name: "Gradle",
+        image: "./images/Gradle.jpeg",
+      },
+      {
+        name: "CocoaPods",
+        image: "./images/CocoaPods.png",
+      },
+      {
+        name: "Swift Package Manager",
+        image: "./images/Swift Package Manager.jpeg",
+      },
+      {
+        name: "React",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
@@ -201,27 +282,27 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "./images/c1.jpeg",
+    img: "./images/c1.png",
     role: "Mobile Engineering Intern",
-    company: "Northgate Digital",
+    company: "MoTech Inc.",
     date: "Jan 2014 - Nov 2014",
-    desc: "Participated in Designing and Developing App Screens and it's workflow using Activities and Fragments. Written Application logic using Android Studio. Worked on Designing, Enhancements, Bug-fixing and Maintenance of Android Application. Customized different widgets and views like SurfaceView, Buttons and Dialogs",
+    desc: "Assisted in designing and developing Android app screens and workflows using Activities and Fragments. Implemented core application logic and features in Android Studio. Contributed to UI enhancements, bug fixing, and ongoing maintenance of the Android application. Customized UI components such as SurfaceView, buttons, and dialogs to enhance user experience.",
   },
   {
     id: 1,
-    img: "./images/c1.jpeg",
+    img: "./images/c1.png",
     role: "Mobile Engineer",
-    company: "Northgate Digital",
+    company: "MoTech Inc.",
     date: "Dec 2014 - Jun 2018",
-    desc: "Refactored major part of e-commerce Android app, improving app performance crash free sessions to 99.9%. Fixed bugs, solved memory leak isues, improved application performance. Integrated Rest API endpoints. Write maintainable and reusable Kotlin code. Covered most of parts of project with Test codes. Worked closely with QA teams to maintain best practices.",
+    desc: "Refactored core components of a large-scale e-commerce Android app, increasing crash-free sessions to 99.9%. Resolved memory leaks and performance bottlenecks, significantly improving app stability and responsiveness. Integrated RESTful API endpoints to support new features and data flows. Wrote clean, maintainable, and reusable Kotlin code following best development practices. Developed thorough test coverage across key project areas to support ongoing quality assurance. Collaborated closely with QA teams to uphold high testing standards and ensure a smooth release cycle.",
   },
   {
     id: 2,
     img: "./images/c2.jpeg",
     role: "Software Engineer",
-    company: "Gym Launch Secrets, LL",
+    company: "Gym Launch Secrets, LLC",
     date: "July 2018 - May 2021",
-    desc: "A dynamic and innovative company dedicated to empowering fitness entrepreneurs and gym owners to achieve unprecedented success in the health and wellness industry. Build Native Mobile Local Mobile Project. Debugged critical issues such as memory leaks and fixed concurrency problems. Managed tasks within Agile Framework, cleared Sprinted Tasks and controlled workflows. Rewrite Objective-C code into Swift. Refactored existing XML designs with Jetpack Compose. Implemented unit and UI automation tests for Android using JUnit and Espresso, and for iOS using XCTest and XCUITest, ensuring hightest coverage, reliability, and continuous integration readiness across platforms.",
+    desc: "A dynamic and innovative company empowering fitness entrepreneurs and gym owners to succeed in the health and wellness industry. Developed a native mobile application for a localized gym management project. Diagnosed and resolved critical issues including memory leaks and concurrency bugs. Operated within an Agile framework to manage sprint tasks and streamline workflows. Migrated legacy Objective-C codebase to Swift for improved maintainability and performance. Refactored outdated Android XML layouts using Jetpack Compose for a modern UI experience. Built comprehensive unit and UI automation tests—JUnit and Espresso(Android), XCTest and XCUITest (iOS)—ensuring high test coverage, reliability, and CI/CD readiness across platforms.",
   },
   {
     id: 3,
@@ -229,7 +310,7 @@ export const experiences = [
     role: "Senior Mobile Engineer",
     company: "SeniorPlace",
     date: "May 2021 - Mar 2025",
-    desc: "Led cross-platform mobile development teams in the design and implementation of a new fitness app and a localized mobile project, ensuring timely delivery and highquality standards across both Android and iOS platforms. Architected scalable and maintainable mobile applications following MVVM. architecture and leveraging dependency injection with Dagger (Android) and Swift's native patterns (iOS). Developed intuitive and responsive Android UIs using Jetpack Compose, and crafted seamless iOS interfaces with SwiftUI for a consistent user experience across platforms. Implemented advanced concurrency management using Kotlin Coroutines (Android) and GCD/OperationQueue (iOS), enabling efficient handling of background tasks and UI responsiveness. Designed and implemented complex application features using the BLoC pattern in Flutter for cross-platform compatibility and scalability. Managed widget state effectively in Flutter to support real-time updates and background data synchronization without performance degradation. Mentored junior developers on both Android and iOS teams, fostering best practices, encouraging growth, and improving overall team productivity.",
+    desc: "Led cross-platform mobile development teams in delivering a fitness app and a localized mobile project, ensuring high-quality standards and on-time releases for both Android and iOS platforms. Designed scalable, maintainable mobile architectures using MVVM and implemented dependency injection with Dagger (Android) and native Swift patterns (iOS). Built intuitive, responsive Android UIs with Jetpack Compose and crafted seamless iOS interfaces using SwiftUI for a consistent cross-platform user experience. Applied advanced concurrency management using Kotlin Coroutines (Android) and GCD/OperationQueue (iOS) to optimize background task handling and UI responsiveness. Engineered complex app features in Flutter using the BLoC pattern to ensure performance and scalability across platforms. Managed Flutter widget states efficiently to enable real-time updates and background data sync without compromising performance. Mentored junior Android and iOS developers, promoting best practices and contributing to improved team performance and code quality.",
   },
   // {
   //   id: 1,
@@ -294,7 +375,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "http://dufe.admissions.cn/resources/logos/dufe.png",
+    img: "./images/dufe.png",
     school: "Dongbei University",
     date: "2010 - 2014",
     grade: "7.55 CGPA",

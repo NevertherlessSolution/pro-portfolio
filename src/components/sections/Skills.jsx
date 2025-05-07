@@ -88,7 +88,6 @@ const SkillList = styled.div`
   justify-content: center;
   flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 20px;
 `;
 const SkillItem = styled.div`
   font-size: 16px;
@@ -125,7 +124,7 @@ const Skills = () => {
         <Title>Skills</Title>
         <Desc
           style={{
-            marginBottom: "40px",
+            marginBottom: "20px",
           }}
         >
           Here are some of my skills on which I have been working on for the
