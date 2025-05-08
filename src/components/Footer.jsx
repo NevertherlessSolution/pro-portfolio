@@ -83,12 +83,18 @@ const Copyright = styled.p`
   text-align: center;
 `;
 
+const Email = styled.p`
+  font-size: 0.9rem;
+  color: ${({ theme }) => theme.soft2};
+  text-align: center;
+`;
+
 function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
         <Logo>XiaoNan Li</Logo>
-        <Copyright>xiaonan1103@hotmail.com</Copyright>
+        <Email>xiaonan1103@hotmail.com</Email>
         <Nav>
           <NavLink href="#Hero">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
