@@ -88,6 +88,7 @@ function Footer() {
     <FooterContainer>
       <FooterWrapper>
         <Logo>XiaoNan Li</Logo>
+        <Copyright>xiaonan1103@hotmail.com</Copyright>
         <Nav>
           <NavLink href="#Hero">About</NavLink>
           <NavLink href="#Skills">Skills</NavLink>
